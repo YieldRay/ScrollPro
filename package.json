@@ -1,0 +1,19 @@
+{
+    "name": "scrollpro",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build:demo": "tsc && vite build",
+        "build:lib": "tsc && vite build -c vite.lib.config.ts",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@types/node": "^22.4.0",
+        "typescript": "^5.5.4",
+        "vite": "^5.4.1",
+        "vite-plugin-dts": "^4.0.3"
+    },
+    "packageManager": "pnpm@9.7.1"
+}

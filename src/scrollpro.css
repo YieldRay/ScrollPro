@@ -1,0 +1,23 @@
+html {
+    scroll-timeline: --scroll-timeline-for-scroll-pro block;
+}
+
+.scroll-pro-cssonly {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    animation-timeline: --scroll-timeline-for-scroll-pro;
+    animation-name: scroll-pro-keyframes;
+    height: 10px;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+}
+
+@keyframes scroll-pro-keyframes {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
